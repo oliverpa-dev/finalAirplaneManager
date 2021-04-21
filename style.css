@@ -1,0 +1,88 @@
+/* GLOBAL */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* First "Create Airplane" BOX - START */
+.container {
+  width: 100%;
+  min-height: 500px;
+}
+
+.wrapper {
+  width: 50%;
+  margin: auto;
+  min-height: inherit;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.first-box {
+  width: inherit;
+  min-height: inherit;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+
+.first-box h1 {
+  text-align: center;
+}
+
+.first-box input, label {
+  margin: 0 auto;
+}
+
+.first-box input {
+  width: 50%;
+}
+
+.first-box #first-button {
+  width: 25%;
+}
+/* FIRST "Create Airplane" BOX - END*/
+
+/* SECOND "Assign pilots and flights attendants" BOX - START */
+.second-box {
+  width: inherit;
+  min-height: inherit;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 5px black solid;
+  border-radius: 10px;
+}
+
+.second-box h1 {
+  text-align: center;
+}
+
+.second-box input, label, select {
+  margin: 0 auto;
+}
+
+.second-box input, select {
+  width: 50%;
+}
+
+.second-box select {
+  text-align: center;
+}
+/* SECOND "Assign pilots and flights attendants" BOX - END */
+
+/* TABLE - START */
+.table-container {
+  width: 100%;
+  min-height: 500px;
+  border: 5px black solid;
+}
+/* TABLE - END */
